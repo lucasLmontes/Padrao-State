@@ -27,10 +27,6 @@ public class Delivery {
         return estado.cancelar(this);
     }
 
-    public String getNomeEstado() {
-        return estado.getEstado();
-    }
-
     public DeliveryEstado getEstado() {
         return estado;
     }
