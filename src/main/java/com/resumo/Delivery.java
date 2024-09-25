@@ -1,7 +1,6 @@
 package com.resumo;
 
 public class Delivery {
-    private String pedido;
     private DeliveryEstado estado;
 
     public Delivery() {
@@ -30,14 +29,6 @@ public class Delivery {
 
     public String getNomeEstado() {
         return estado.getEstado();
-    }
-
-    public String getPedido() {
-        return pedido;
-    }
-
-    public void setPedido(String pedido) {
-        this.pedido = pedido;
     }
 
     public DeliveryEstado getEstado() {
